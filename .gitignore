@@ -1,0 +1,6 @@
+#Node modules
+node-modules/
+
+#Envitonmet variables
+.env
+node_modules
