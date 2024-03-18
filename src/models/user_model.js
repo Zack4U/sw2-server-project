@@ -10,3 +10,5 @@ const userSchema = new mongoose.Schema({
     user_email: { type: "string", required: true, unique: true },
     user_active: { type: "boolean", required: true, default: false },
 });
+
+module.exports = mongoose.model("UserCollection", userSchema);
